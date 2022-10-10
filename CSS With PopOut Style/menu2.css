@@ -1,0 +1,149 @@
+
+body {
+background: linear-gradient(to right, #8CA6DB, #B993D6); }
+
+
+
+#wrapper {
+	width: 1000px; margin: auto;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+}
+
+#menu ul {
+	font-family: Arial, Verdana;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu ul li {
+	display: block;
+	position: relative;
+	float: left;
+}
+
+#menu li ul {
+	display: none;
+}
+
+#menu ul li a {
+	align-self: center;
+	font-size: 16px;
+	display: block;
+	text-decoration: none;
+	color: #B993D6;
+	padding: 10px 50px 10px 50px;
+	background: white;
+	white-space: nowrap;
+	border: 0.5px solid  #B993D6;
+}
+
+#menu ul li a:hover {
+	background : #666
+}
+
+#menu li:hover ul {
+	display: block;
+	position: absolute;
+}
+
+#menu li:hover li {
+	width: 185px;
+	float: none;
+	font-size: 12px;
+}
+
+#menu li:hover a {
+	background: #gray;
+}
+
+#menu li:hover li a:hover {
+	background: gray;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.56);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 0;
+  color: white;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.close {
+  position: absolute;
+  top: 90px;
+  right: 90px;
+  transition: all 200ms;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.close:hover {
+  color: white;
+}
+
+h3 {
+  font-family: Arial;
+  font-style: bold;
+  font-size: 26px;
+  text-align: center;
+  max-height: 30%;
+  color: white;
+}
+
+.box {
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(242,231,236 ,0.8);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background: linear-gradient(to right, #8CA6DB, #B993D6);
+;
+}
+
+.title {
+  height: 30px;
+  top: 20px;
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.isi {
+	border-bottom: 0.5px solid white;
+	color: white;
+	font-size: 14px;
+}
+button {
+  border: none;
+  padding: 8px;
+  color: white;
+  background:linear-gradient(to right,#5279c9,#955cc1);
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
